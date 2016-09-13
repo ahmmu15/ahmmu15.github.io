@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Simple Caculator">
+    <meta name="author" content="Ahmed Mohaisen">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <title>Simple Calculator</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <!--
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">About</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+-->
+            <!--SVG Logo-->
+            <div class="container logo">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill: #82D09F;
+                        }
+                        
+                        .st1 {
+                            fill: #1A1A1A;
+                        }
+                    </style>
+                    <g>
+                        <g>
+                            <path class="st0" d="M98.6,13.9c0.2-3.2-1.8-5-3.9-6.9c0.5,1.7,0.8,3.5,0.8,5.4v64.3c0,9.9-8,17.9-17.9,17.9H13.4
+			c-3.8,0-7.3-1.2-10.2-3.2C6.4,96,11.8,99,17.9,99h64.3C92,99,100,91,100,81.1v-64C99.1,16.5,98.5,15.4,98.6,13.9z" /> </g>
+                        <g>
+                            <path class="st1" d="M82.1,2C90.9,2,98,9.1,98,17.9v64.3C98,90.9,90.9,98,82.1,98H17.9C9.1,98,2,90.9,2,82.1V17.9
+			C2,9.1,9.1,2,17.9,2H82.1 M82.1,0H17.9C8,0,0,8,0,17.9v64.3C0,92,8,100,17.9,100h64.3c9.9,0,17.9-8,17.9-17.9V17.9
+			C100,8,92,0,82.1,0L82.1,0z" /> </g>
+                        <g>
+                            <path class="st0" d="M84.7,12.4c1.4,2,2.3,4.6,2.3,7.3c0,6.9-5.6,12.6-12.5,12.6h-55c-2.7,0-5.2-0.9-7.2-2.3
+			c2.3,3.2,6,5.3,10.2,5.3h55c6.9,0,12.5-5.7,12.5-12.6C90,18.5,87.9,14.7,84.7,12.4z" /> </g>
+                        <g>
+                            <path class="st1" d="M77.5,12.1c5.8,0,10.5,4.7,10.5,10.5s-4.7,10.5-10.5,10.5h-55c-5.8,0-10.5-4.7-10.5-10.5s4.7-10.5,10.5-10.5
+			H77.5 M77.5,10.1h-55c-6.9,0-12.5,5.6-12.5,12.5c0,6.9,5.6,12.5,12.5,12.5h55c6.9,0,12.5-5.6,12.5-12.5
+			C90,15.7,84.4,10.1,77.5,10.1L77.5,10.1z" /> </g>
+                        <g>
+                            <path class="st0" d="M86,41.8v40.6c0,2.6-2.5,4.9-5.2,4.9H65.1c-0.1,0-0.1-0.2-0.1-0.2v0.3c0,2.6,1.9,4.9,4.5,4.9h15.8
+			c2.6,0,4.7-2.3,4.7-4.9V46.5C90,44,88,42,86,41.8z" /> </g>
+                        <g>
+                            <path class="st0" d="M28.9,70.4c0.1,0.3,0.1,0.7,0.1,1v13.7c0,2.3-2,4.3-4.3,4.3H11.1c-0.3,0-0.7-0.1-1-0.1c0.5,1.8,2.1,3.1,4,3.1
+			h13.7c2.3,0,4.3-2,4.3-4.3V74.4C32,72.5,30.7,70.8,28.9,70.4z" /> </g>
+                        <g>
+                            <path class="st0" d="M30.6,45.3c-0.6-0.6-1.2-1.1-1.6-1.7v12.4c0,2.3-1.9,4.1-4.1,4.1H11.1c-0.3,0-0.7-0.1-1-0.1
+			c0.5,1.8,2.1,3.1,4,3.1h13.7c2.3,0,4.1-1.9,4.1-4.1v-12C31.3,46.6,30.8,46,30.6,45.3z" /> </g>
+                        <g>
+                            <path class="st1" d="M85.3,43.8c1.5,0,2.7,1.2,2.7,2.7v40.9c0,1.5-1.2,2.7-2.7,2.7H69.5c-1.5,0-2.7-1.2-2.7-2.7V46.5
+			c0-1.5,1.2-2.7,2.7-2.7H85.3 M85.3,41.8H69.5c-2.6,0-4.7,2.1-4.7,4.7v40.9c0,2.6,2.1,4.7,4.7,4.7h15.8c2.6,0,4.7-2.1,4.7-4.7V46.5
+			C90,43.9,87.9,41.8,85.3,41.8L85.3,41.8z" /> </g>
+                        <g>
+                            <path class="st1" d="M27.8,72.3c1.2,0,2.1,1,2.1,2.1v13.7c0,1.2-1,2.1-2.1,2.1H14.1c-1.2,0-2.1-1-2.1-2.1V74.4
+			c0-1.2,1-2.1,2.1-2.1H27.8 M27.8,70.3H14.1c-2.3,0-4.1,1.9-4.1,4.1v13.7c0,2.3,1.9,4.1,4.1,4.1h13.7c2.3,0,4.1-1.9,4.1-4.1V74.4
+			C31.9,72.1,30.1,70.3,27.8,70.3L27.8,70.3z" /> </g>
+                        <g>
+                            <path class="st0" d="M55.9,70.4c0.1,0.3,0.1,0.7,0.1,1v13.7c0,2.3-1.6,4.3-3.9,4.3H38.5c-0.3,0-0.7-0.1-1-0.1
+			c0.5,1.8,2.1,3.1,4,3.1h13.7c2.3,0,3.9-2,3.9-4.3V74.4C59,72.5,57.7,70.8,55.9,70.4z" /> </g>
+                        <g>
+                            <path class="st0" d="M57.7,45.1c-0.1-0.4-0.3-0.8-0.4-1.2c-0.4-0.3-0.7-0.6-1-0.9v13.1c0,2.3-1.9,4.1-4.1,4.1H38.5
+			c-0.3,0-0.7-0.1-1-0.1c0.5,1.8,2.1,3.1,4,3.1h13.7c2.3,0,4.1-1.9,4.1-4.1V47.3C58.5,46.8,58.1,46,57.7,45.1z" /> </g>
+                        <g>
+                            <path class="st1" d="M55.2,72.3c1.2,0,2.1,1,2.1,2.1v13.7c0,1.2-1,2.1-2.1,2.1H41.5c-1.2,0-2.1-1-2.1-2.1V74.4
+			c0-1.2,1-2.1,2.1-2.1H55.2 M55.2,70.3H41.5c-2.3,0-4.1,1.9-4.1,4.1v13.7c0,2.3,1.9,4.1,4.1,4.1h13.7c2.3,0,4.1-1.9,4.1-4.1V74.4
+			C59.3,72.1,57.5,70.3,55.2,70.3L55.2,70.3z" /> </g>
+                        <g>
+                            <path class="st1" d="M20,53.8h-3.5v-2H20v-3.5h2v3.5h3.5v2h-3.5v3.4h-2V53.8z" /> </g>
+                        <g>
+                            <path class="st1" d="M61.1,19.9c0,0.6-0.2,1.1-0.6,1.6c-0.4,0.4-0.9,0.8-1.6,1v0c1.6,0.2,2.5,1,2.5,2.3c0,0.9-0.4,1.6-1.1,2.2
+			c-0.7,0.5-1.7,0.8-3,0.8c-0.5,0-1,0-1.5-0.1s-0.9-0.2-1.5-0.4V25c0.4,0.2,0.9,0.4,1.3,0.5s0.9,0.2,1.2,0.2c0.6,0,1-0.1,1.3-0.2
+			c0.3-0.2,0.4-0.4,0.4-0.8c0-0.3-0.1-0.5-0.2-0.6c-0.1-0.1-0.4-0.3-0.7-0.3c-0.3-0.1-0.7-0.1-1.2-0.1h-0.6v-2h0.6c1.3,0,2-0.3,2-1
+			c0-0.3-0.1-0.5-0.3-0.6c-0.2-0.1-0.5-0.2-0.8-0.2c-0.6,0-1.3,0.2-2,0.6l-1.1-1.8c0.5-0.4,1.1-0.6,1.6-0.8c0.5-0.2,1.2-0.2,1.9-0.2
+			c1,0,1.8,0.2,2.4,0.6S61.1,19.1,61.1,19.9z" />
+                            <path class="st1" d="M63.3,27.6l3.4-7.6h-4.3v-2.2h7.1v1.6l-3.5,8.3H63.3z" />
+                            <path class="st1" d="M70.6,26.4c0-0.4,0.1-0.7,0.4-1c0.2-0.2,0.6-0.3,1.1-0.3c0.4,0,0.8,0.1,1,0.3c0.2,0.2,0.4,0.5,0.4,1
+			c0,0.4-0.1,0.7-0.4,0.9c-0.2,0.2-0.6,0.3-1,0.3c-0.4,0-0.8-0.1-1-0.3C70.7,27.2,70.6,26.8,70.6,26.4z" />
+                            <path class="st1" d="M81.9,25.7h-1.1v1.9h-2.6v-1.9h-3.9v-2l4.1-6h2.5v5.9h1.1V25.7z M78.2,23.7v-1.1c0-0.2,0-0.5,0-0.9
+			c0-0.4,0-0.6,0-0.6h-0.1c-0.2,0.3-0.3,0.7-0.5,1l-1.1,1.6H78.2z" /> </g>
+                        <g>
+                            <path class="st1" d="M43.9,53.9v-2.2h8.9v2.2H43.9z" /> </g>
+                        <g>
+                            <path class="st1" d="M73,66.3v-2h8.9v2H73z M73,69.7v-2h8.9v2H73z" /> </g>
+                        <g>
+                            <path class="st1" d="M19.7,81.1l-2.3-3.4h2.2l1.4,2.2l1.4-2.2h2.2l-2.3,3.4l2.4,3.6h-2.2l-1.5-2.4l-1.5,2.4h-2.2L19.7,81.1z" /> </g>
+                        <g>
+                            <g>
+                                <path class="st1" d="M43.9,82.3v-2.2h8.9v2.2H43.9z" /> </g>
+                            <path class="st1" d="M48.5,79h-0.2c-0.6,0-1-0.4-1-1v-0.2c0-0.6,0.4-1,1-1h0.2c0.6,0,1,0.4,1,1V78C49.5,78.6,49,79,48.5,79z" />
+                            <path class="st1" d="M48.5,85.7h-0.2c-0.6,0-1-0.4-1-1v-0.2c0-0.6,0.4-1,1-1h0.2c0.6,0,1,0.4,1,1v0.2C49.5,85.2,49,85.7,48.5,85.7
+			z" /> </g>
+                        <g>
+                            <path class="st1" d="M55.2,43.8c1.2,0,2.1,1,2.1,2.1v13.7c0,1.2-1,2.1-2.1,2.1H41.5c-1.2,0-2.1-1-2.1-2.1V45.9
+			c0-1.2,1-2.1,2.1-2.1H55.2 M55.2,41.8H41.5c-2.3,0-4.1,1.9-4.1,4.1v13.7c0,2.3,1.9,4.1,4.1,4.1h13.7c2.3,0,4.1-1.9,4.1-4.1V45.9
+			C59.3,43.7,57.5,41.8,55.2,41.8L55.2,41.8z" /> </g>
+                        <g>
+                            <path class="st1" d="M27.8,43.8c1.2,0,2.1,1,2.1,2.1v13.7c0,1.2-1,2.1-2.1,2.1H14.1c-1.2,0-2.1-1-2.1-2.1V45.9
+			c0-1.2,1-2.1,2.1-2.1H27.8 M27.8,41.8H14.1c-2.3,0-4.1,1.9-4.1,4.1v13.7c0,2.3,1.9,4.1,4.1,4.1h13.7c2.3,0,4.1-1.9,4.1-4.1V45.9
+			C31.9,43.7,30.1,41.8,27.8,41.8L27.8,41.8z" /> </g>
+                    </g>
+                </svg>
+                <h3>Simple Calculator</h3> </div>
+        </div>
+        <div class="jumbotron">
+            <div class="input-group number_one">
+                <input type="text" id="nOne" class="form-control number_one" placeholder="First Number" aria-describedby="basic-addon1" maxlength="5"> </div>
+            <div class="input-group number_two">
+                <input type="text" id="nTwo" class="form-control number_two" placeholder="Second Number" aria-describedby="basic-addon1" maxlength="5"> </div>
+            <div class="container">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-success plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-success minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-success by"><i class="fa fa-close" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-success divid"><i class="fa fa-percent" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="container result"></div>
+        </div>
+        <div class="row marketing">
+            <div class="container text-center">
+                <p>This is the best calculator you can find ever on the internet!
+                    <br> <strong> Kidding!</strong> I made this to put my JavaScript skills into practice :)
+                    <br>
+                    <br>
+                    <br> Made with <i class="fa fa-heart" aria-hidden="true"></i>
+                    <br>using Bootstrap & jQuery </p>
+            </div>
+        </div>
+        <footer class="footer text-center">
+            <p>&copy; 2016 - Ahmed Mohaisen</p>
+        </footer>
+    </div>
+    <!-- /container -->
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Calculator  -->
+    <script src="js/calc.js"></script>
+</body>
+
+</html>
