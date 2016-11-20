@@ -1,0 +1,106 @@
+body {
+	background: #f1f2f3;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 5em
+}
+.main__card {
+	background: white;
+	margin-top: 5em;
+	padding: 10em 5em;
+	border-radius: 3px;
+	box-shadow: 0px 40px 50px #ccc
+}
+.word__define {
+	color: #aaa;
+	font-weight: 300 !important
+}
+.my-slider.unslider-vertical {
+    height: 620px;
+}
+.eight.columns {
+    margin-left: 20%;
+}
+.unslider {
+	margin-bottom: 5em;
+}
+.unslider-arrow.prev, .unslider-arrow.next {
+	display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.unslider-arrow.prev:hover, .unslider-arrow.next:hover {
+  color: #FFF;
+  background-color: #000;
+  border-color: #000; 
+}
+ 
+.unslider-nav {
+  width: 50%;
+  margin: 0 auto
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+ 	
+ 	.my-slider.unslider-vertical {
+    height: 500px
+}
+
+.main__card {
+	padding:6em 1em;
+    margin-top: 1em;
+}
+
+}
+
+
+
+@media (max-width: 425px) {
+ 	
+ .unslider-nav {
+  	display: none;
+  }
+
+	.eight.columns {
+    margin-left: 5%;
+    width: 90%;
+    text-align: center;
+    
+}
+
+.main__card {
+	padding:6em 1em;
+    margin-top: 1em;
+}
+
+.my-slider.unslider-vertical {
+    height: 500px
+}
+.container {
+	padding: 0;
+}
+
+}
