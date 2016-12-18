@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Spreadshirt Documents</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="owl.carousel.css">
+	<link rel="stylesheet" href="owl.theme.css">
+	<link rel="stylesheet" href="owl.transitions.css">
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="icon" href="favicon.png" type="image/png">
+
+</head>
+<body>
+	<div id="wrapper">
+		<div class="container">
+			<h5 class="main__title">Spreadshirt Documents</h5>
+
+			<div class="section">
+				<div id="work-imgs" class="owl-carousel owl-theme">
+				  <div class="item"><img src="img/done_4.jpg" alt="some of my sketching work"></div>
+				  <div class="item"><img src="img/done_3.jpg" alt="some of my sketching work"></div>
+				  <div class="item"><img src="img/done_2.jpg" alt="some of my sketching work"></div>
+				  <div class="item"><img src="img/done_1.jpg" alt="some of my sketching work"></div>
+				</div>
+			</div>
+
+			<div class="section">
+				<h1 class="title">Behind the scenes</h1>
+				<p class="desc">Most of my opinions, were <span class="notice">based on the common patterns</span> that spread all over the internet. Following a well-known pattern considers best practice, since it saves you time and efforts when it comes to user educating.</p>
+				<p class="desc">Most users will be already familiar with the purpose and the actions behind each components, however, sometimes, that might not be the case, and that’s when (testing) comes in action.</p>
+				<p class="desc">It might also be a great idea to come up with a new pattern, everyone wants to be unique and be the pioneer in the field, and that’s amazing, in case you have the required time and efforts to do so.</p>
+				<p class="desc">For this task, <span class="notice">I sticked with what already there</span>, and didn’t try to reinvent the wheel, thus, I expect you guys, are familiar as well with what I came up with, for this reason, I will be concise with my explanation.</p>
+			</div>
+
+			<div class="section">
+				<h1 class="title">Navigation bar</h1>
+				<p class="desc">As you can notice, nothing new here, almost the same, with some repolishing. Icons replaced with thin line icons, somehow these icons can give a modern look to the interface.</p>
+				<p class="desc">Not just that, but the <span class="notice">language has added there!</span> Why? Because it’s a common pattern, and most of users will expect to find it there! I was surprised to find it in the footer! When I first visited your website, I thought you don't support other languages!</p>
+			</div>
+
+			<div class="section">
+				<h1 class="title">Carousel</h1>
+				<p class="desc">They say that this is the place that you can use to capture user’s attention! And that's obviously true, since it’s the first thing that will appear on the screen.</p>
+				<p class="desc">Capturing user attention is not that easy, specially when things get repetitive! I mean, come on! Let’s be honest! Carousels and sliders are everywhere, and the way they behave can be expected! Slide, slide aaand then slide, right?</p>
+				<p class="desc">Repetitive things can be ignored unconsciously by our brain! Just remember how our eyes ignore the nose, like it’s not there anymore!</p>
+				<p class="desc">Fortunately, our eyes are very good at spotting any movement out there, this ability is an essential to our survival, and we, humans, keep it in our kit.</p>
+				<p class="desc">That’s why I came up with the subtle animation of the t-shirt, because animation is the only thing available for us on the web, to create some kind of movement.</p>
+				<p class="desc">Too much animation can be overwhelming though, that’s why I tried my best to keep it subtle, all over the web page.</p>
+			</div>
+
+			<div class="section">
+				<h1 class="title">Best selling</h1>
+				<p class="desc">This section looks like still, but it can move (aka. slide), disabling the autoplay to create a difference between different parts of the website. But still, there’s a chance to make it move, by pressing the navigation arrows on its sides.</p>
+				<p class="desc">Hovering over one card, brings a new component, where user can like, add to cart,  and share. Same component is there by default on mobile, since there’s no hover state in touch devices.</p>
+			</div>
+
+			<div class="section">
+				<h1 class="title">What they said</h1>
+				<p class="desc">Well, this one is very simple, with a transition that can get eyes attention anyway!</p>
+			</div>
+
+			<div class="section">
+				<h1 class="title">Stay updated</h1>
+				<p class="desc">This one moved out of the footer as well, because <span class="notice">this part deserves better attention</span>, not just because it can <span class="notice">boost up company email marketing</span>, but also telling users that the company is good enough to keep its users updated with latest.</p>
+				<p class="desc">This can <span class="notice">give a feeling of care</span>, and whenever the user feels that you care about him/ her, you gonna guarantee <span class="notice">verbal marketing!</span></p>
+			</div>
+
+			<div class="section">
+				<h1 class="title">Footer</h1>
+				<p class="desc">Nothing to mention here, almost same as original …</p>
+				<p class="desc note">The delivered code isn’t for production, it’s just raw code that meant to other developers, this way anyone with front-end background can read and understand it.</p>
+			</div>
+		</div>
+	</div>
+
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+	<script src="owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function() {
+ 
+		  $("#work-imgs").owlCarousel({
+		 
+		      navigation : false,
+		      slideSpeed : 300,
+		      paginationSpeed : 400,
+		      singleItem:true,
+		      autoPlay: true,
+		      transitionStyle : "fade"
+		 
+		  });
+		 
+		});
+	</script>
+</body>
+</html>
