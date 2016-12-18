@@ -1,0 +1,16 @@
+{
+  "name": "spread_shirts",
+  "version": "1.0.0",
+  "description": "A demo landing page for spreadshirts.de",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shirts",
+    "clothes",
+    "ecommerce"
+  ],
+  "author": "Ahmed",
+  "license": "ISC"
+}
