@@ -59,7 +59,7 @@ button:hover, button:focus, button:active {
 	font-family: 'Helvetica LT';
 }
 .nav__search__btn {
-	font-family: "linea-basic-10";
+	font-family: "linea-basic-10" !important;
 	border: none;
 	font-size: 1.5em;
 	padding-left: 0;
@@ -71,7 +71,7 @@ button:hover, button:focus, button:active {
 	opacity: 1
 }
 .nav__fav__btn, .add__to__fav {
-	font-family: "linea-basic-10";
+	font-family: "linea-basic-10" !important;
 }
 .nav__fav__btn {
 	border: none;
@@ -86,7 +86,7 @@ button:hover, button:focus, button:active {
 	opacity: 1
 }
 .nav__bascket__btn, .share__it__btn {
-	font-family: "linea-ecommerce-10";
+	font-family: "linea-ecommerce-10" !important;
 }
 .nav__bascket__btn {
 	border: none;
