@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6 {
 	font-family: 'Museo Slab 700';
 }
 p {
@@ -26,7 +26,7 @@ button:hover, button:focus, button:active {
 	height: 60px;
 	overflow: hidden;
 }
-.main_logo img {
+.main_logo img{
 	display: inline-block !important;
 	float: left
 }
@@ -59,19 +59,19 @@ button:hover, button:focus, button:active {
 	font-family: 'Helvetica LT';
 }
 .nav__search__btn {
-	font-family: "linea-basic-10" !important;
+	font-family: "linea-basic-10";
 	border: none;
 	font-size: 1.5em;
 	padding-left: 0;
 	opacity: .7;
 	transition: all .2s ease-in
 }
-.nav__search__btn:hover, .nav__search__btn:active, .nav__search__btn:focus {
+.nav__search__btn:hover, .nav__search__btn:active, .nav__search__btn:focus{
 	background: none;
 	opacity: 1
 }
 .nav__fav__btn, .add__to__fav {
-	font-family: "linea-basic-10" !important;
+	font-family: "linea-basic-10";
 }
 .nav__fav__btn {
 	border: none;
@@ -81,12 +81,12 @@ button:hover, button:focus, button:active {
 	opacity: .7;
 	transition: all .2s ease-in
 }
-.nav__fav__btn:hover, .nav__fav__btn:active, .nav__fav__btn:focus {
+.nav__fav__btn:hover, .nav__fav__btn:active, .nav__fav__btn:focus{
 	background: none;
 	opacity: 1
 }
 .nav__bascket__btn, .share__it__btn {
-	font-family: "linea-ecommerce-10" !important;
+	font-family: "linea-ecommerce-10";
 }
 .nav__bascket__btn {
 	border: none;
@@ -96,7 +96,7 @@ button:hover, button:focus, button:active {
 	opacity: .7;
 	transition: all .2s ease-in
 }
-.nav__bascket__btn:hover, .nav__bascket__btn:active, .nav__bascket__btn:focus {
+.nav__bascket__btn:hover, .nav__bascket__btn:active, .nav__bascket__btn:focus{
 	background: none;
 	opacity: 1
 }
@@ -118,11 +118,11 @@ button:hover, button:focus, button:active {
 	font-family: 'Helvetica LT';
 	font-size: .9em
 }
-.open .language:hover, .open .language:active, .open .language:focus {
+.open .language:hover, .open .language:active, .open .language:focus{
 	background: none !important;
 	opacity: 1
 }
-.language__list a {
+.language__list a{
 	font-family: 'Helvetica LT';
 	font-size: .9em;
 	padding-right: 5px !important
@@ -382,7 +382,7 @@ button:hover, button:focus, button:active {
 	transform: translateY(-5px);
 	box-shadow: 0 10px 10px #aaa
 }
-.item__card:hover .add__to__card {
+.item__card:hover .add__to__card{
 	transform: translateY(-150px);
 	opacity: 1
 }
@@ -437,7 +437,7 @@ button:hover, button:focus, button:active {
 	line-height: 1.7;
 	transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.175)
 }
-.add__to__fav:hover {
+.add__to__fav:hover  {
 	background: #fa454c;
 	color: white;
 }
@@ -459,7 +459,7 @@ button:hover, button:focus, button:active {
 	line-height: 1.7;
 	transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.175)
 }
-.share__it__btn:hover {
+.share__it__btn:hover  {
 	background: #00B2A5;
 	color: white;
 }
@@ -536,7 +536,7 @@ button:hover, button:focus, button:active {
 	margin-top: 0;
 	text-transform: uppercase;
 }
-.logo__footer img {
+.logo__footer img{
 	width: 35%
 }
 .rating {
@@ -559,3 +559,4 @@ button:hover, button:focus, button:active {
 .mobile__buttom__nav, .small__mobile__nav, .mobile__nav {
 	display: none !important
 }
+
