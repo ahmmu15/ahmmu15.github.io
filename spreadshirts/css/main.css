@@ -2,7 +2,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Museo Slab 700';
 }
 p {
-	font-family: 'Helvetica LT';
+	font-family: 'Helvetica LT', Arial, sans-serif;
 }
 a:hover, a:focus, a:active {
 	text-decoration: none !important;
@@ -56,7 +56,7 @@ button:hover, button:focus, button:active {
 	border-radius: 0;
 	padding: 0;
 	box-shadow: none;
-	font-family: 'Helvetica LT';
+	font-family: 'Helvetica LT', Arial, sans-serif;
 }
 .nav__search__btn {
 	font-family: "linea-basic-10";
@@ -101,7 +101,7 @@ button:hover, button:focus, button:active {
 	opacity: 1
 }
 .bascket__items {
-	font-family: 'Helvetica LT';
+	font-family: 'Helvetica LT', Arial, sans-serif;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -115,7 +115,7 @@ button:hover, button:focus, button:active {
 	padding: 0 6px;
 }
 .language {
-	font-family: 'Helvetica LT';
+	font-family: 'Helvetica LT', Arial, sans-serif;
 	font-size: .9em
 }
 .open .language:hover, .open .language:active, .open .language:focus{
@@ -123,7 +123,7 @@ button:hover, button:focus, button:active {
 	opacity: 1
 }
 .language__list a{
-	font-family: 'Helvetica LT';
+	font-family: 'Helvetica LT', Arial, sans-serif;
 	font-size: .9em;
 	padding-right: 5px !important
 }
@@ -491,7 +491,7 @@ button:hover, button:focus, button:active {
 .newsletter input {
 	height: 50px;
 	border: none;
-	font-family: 'Helvetica LT';
+	font-family: 'Helvetica LT', Arial, sans-serif;
 	font-size: 1.1em
 }
 .subscribe__btn {
