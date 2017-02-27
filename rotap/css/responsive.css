@@ -1,0 +1,349 @@
+/* ==========================================================================
+   Size: 1024x768 (Landscape), Ratio: 4:3
+   ========================================================================== */
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .top-bar .row {
+    width: 80%;
+    float: right;
+  }
+
+  .product-discription-slider h2 {
+    font-size: 24px;
+  }
+
+  .product-discription-slider p {
+    font-size: 13px;
+  }
+
+  .info h3 {
+    font-size: 18px;
+  }
+
+  .info p {
+    font-size: 13px;
+  }
+
+  .negative-margin {
+    margin-top: -196px;
+  }
+
+  .social-media {
+    width: 35%;
+  }
+
+  .newsletter {
+    width: 65%;
+  }
+
+  img {
+    height: 100%;
+  }
+}
+
+/* ==========================================================================
+   Size: 768x1024 (Portrait), Ratio: 3:4
+   ========================================================================== */
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+  .navbar-nav>li>a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .product-discription-slider {
+    width: 40%;
+    right: 0;
+  }
+
+  .full-item-pix,.item-info {
+    width: 50%;
+    float: left;
+  }
+
+  .long-item {
+    height: 250px;
+  }
+
+  .item-info.absolute {
+    position: absolute;
+    width: 50%;
+    right: 0;
+  }
+
+  .negative-margin {
+    margin-top: 0;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .info-center {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .item-info.white.full-width {
+    background: #000;
+  }
+
+  .item-info.white.full-width h3 {
+    color: #eee;
+  }
+
+  .site-map.tablet-width .col-md-3 {
+    width: 20%;
+    float: left;
+  }
+
+  .newsletter {
+    display: block;
+    float: left;
+    text-align: center;
+  }
+
+  .banks .col-md-4,.cards .col-md-4,.secure .col-md-4 {
+    width: 15%;
+    float: left;
+  }
+}
+
+/* ==========================================================================
+   Size: 600x800 (Portrait), Ratio: 3:4
+   ========================================================================== */
+@media only screen and (max-width: 600px) and (min-width: 321px) {
+  .navbar-toggle .icon-bar {
+    background: #000 !important;
+  }
+
+  .navbar-brand,.navbar-nav>li>a {
+    text-align: center;
+  }
+
+  .product-discription-slider {
+    width: 50%;
+    padding: 30px;
+    height: auto;
+    right: 0;
+    bottom: -20px;
+    background: rgba(255,255,255,0.8);
+  }
+
+  .product-discription-slider h2 {
+    font-size: 20px;
+  }
+
+  .product-discription-slider p {
+    font-size: 13px;
+  }
+
+  .full-item-pix,.item-info {
+    width: 50%;
+    float: left;
+  }
+
+  .long-item {
+    height: 250px;
+  }
+
+  .item-info.absolute {
+    position: absolute;
+    width: 50%;
+    right: 0;
+  }
+
+  .negative-margin {
+    margin-top: 0;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .info-center {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .info h3 {
+    font-size: 18px;
+  }
+
+  .item-info.white.full-width {
+    background: #000;
+  }
+
+  .item-info.white.full-width h3 {
+    color: #eee;
+  }
+
+  .site-map.tablet-width .col-md-3 {
+    width: 19%;
+    float: left;
+  }
+
+  .newsletter {
+    display: block;
+    float: left;
+    text-align: center;
+  }
+
+  .banks .col-md-4,.cards .col-md-4,.secure .col-md-4 {
+    width: 17%;
+    float: left;
+  }
+}
+
+/* ==========================================================================
+   Size: 320x568 (Portrait), Ratio: 40:71
+   ========================================================================== */
+@media only screen and (max-width: 320px) {
+  .main-slider {
+    height: auto;
+  }
+
+  .main-slider .item img {
+    height: 250px;
+    width: 400px;
+  }
+
+  .navbar-toggle .icon-bar {
+    background: #000 !important;
+  }
+
+  .navbar-brand,.navbar-nav>li>a {
+    text-align: center;
+  }
+
+  .product-discription-slider {
+    width: 100%;
+    padding: 30px;
+    height: auto;
+    right: 0;
+    bottom: -20px;
+    background: rgba(255,255,255,0.5);
+  }
+
+  .product-discription-slider p {
+    color: #111;
+    text-shadow: 0 0 #444;
+  }
+
+  .product-discription-slider a {
+    color: #111;
+    border-bottom-color: #111;
+  }
+
+  .product-discription-slider a:hover {
+    color: #fff;
+    background: #111;
+  }
+
+  .product-discription-slider h2 {
+    font-size: 20px;
+  }
+
+  .product-discription-slider p {
+    font-size: 13px;
+  }
+
+  .full-item-pix,.item-info {
+    width: 100%;
+    float: left;
+  }
+
+  .long-item {
+    height: 250px;
+  }
+
+  .item-info.absolute {
+    position: absolute;
+    width: 100%;
+    right: 0;
+  }
+
+  .negative-margin {
+    margin-top: 0;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .info-center {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .info h3 {
+    font-size: 18px;
+  }
+
+  .item-info.white.full-width {
+    background: #000;
+  }
+
+  .item-info.white.full-width h3 {
+    color: #eee;
+  }
+
+  .site-map.tablet-width .col-md-3 {
+    display: none;
+  }
+
+  .social-media {
+    text-align: center;
+  }
+
+  .social-media li {
+    display: inline-block;
+    width: 90px;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .social-media a {
+    font-size: 11px;
+  }
+
+  .phone li {
+    width: 200px;
+    padding: 0;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .phone a {
+    font-size: 20px;
+  }
+
+  .ad-area,.long-item {
+    display: none;
+  }
+
+  .newsletter {
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+
+  .banks .col-md-4,.cards .col-md-4,.secure .col-md-4 {
+    display: none;
+  }
+
+  .item-info.white.full-width {
+    height: auto;
+  }
+
+  .mobile-hidden {
+    display: none !important;
+  }
+
+  img {
+    height: 100%;
+  }
+}
